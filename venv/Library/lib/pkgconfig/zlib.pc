@@ -1,0 +1,13 @@
+prefix=C:/Users/Ram kumar/Documents/GeminiLLMAPP/venv/Library
+exec_prefix=C:/Users/Ram kumar/Documents/GeminiLLMAPP/venv/Library
+libdir=C:/Users/Ram kumar/Documents/GeminiLLMAPP/venv/Library/lib
+sharedlibdir=C:/Users/Ram kumar/Documents/GeminiLLMAPP/venv/Library/lib
+includedir=C:/Users/Ram kumar/Documents/GeminiLLMAPP/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
