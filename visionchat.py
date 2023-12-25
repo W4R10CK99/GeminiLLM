@@ -40,8 +40,8 @@ st.title("GemCHAT")
 # Create a custom container for input
 
 st.text("How can I help you?")
-input = st.text_input("", placeholder="Query about the image", key="input")
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
+input = st.text_input("", placeholder="Query about the image", key="input")
 image=""
 if uploaded_file is not None:
     image = Image.open(uploaded_file)
